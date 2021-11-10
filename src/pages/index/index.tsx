@@ -4,6 +4,7 @@ import { observer, inject } from 'mobx-react'
 
 import './index.less'
 
+
 type PageStateProps = {
   store: {
     counterStore: {
