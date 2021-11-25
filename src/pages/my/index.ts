@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import { View } from '@tarojs/components'
+
 import {
   useReady,
   useDidShow,
@@ -25,7 +26,7 @@ function My () {
   usePullDownRefresh(() => {})
 
   return (
-    <View className='index' />
+    <View />
   )
 }
 

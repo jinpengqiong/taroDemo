@@ -25,7 +25,7 @@ function Index () {
   usePullDownRefresh(() => {})
 
   return (
-    <View className='index' />
+    <View ></View>
   )
 }
 

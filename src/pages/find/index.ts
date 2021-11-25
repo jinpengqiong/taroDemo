@@ -25,7 +25,7 @@ function Find () {
   usePullDownRefresh(() => {})
 
   return (
-    <View className='index' />
+    <View />
   )
 }
 
